@@ -1,0 +1,21 @@
+{
+  "name": "fastng",
+  "version": "1.0.7",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "fastng": "index.js"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/purely-smile/fast-ng.git"
+  },
+  "dependencies": {
+    "camelcase": "^4.0.0"
+  }
+}

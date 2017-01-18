@@ -1,21 +1,27 @@
 {
-  "name": "fastng",
-  "version": "1.0.7",
-  "description": "",
-  "main": "index.js",
-  "bin": {
-    "fastng": "index.js"
-  },
-  "scripts": {
-    "test": "node test"
-  },
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "github",
-    "url": "https://github.com/purely-smile/fast-ng.git"
-  },
-  "dependencies": {
-    "camelcase": "^4.0.0"
-  }
+    "name": "fastng",
+    "version": "1.0.9",
+    "description": "快速生成angular组件文件",
+    "bin": {
+        "fastng": "index.js"
+    },
+    "engines": {
+        "node": ">=0.10"
+    },
+    "scripts": {
+        "test": "node test"
+    },
+    "files": [
+        "index.js"
+    ],
+    "author": "",
+    "license": "MIT",
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/purely-smile/fast-ng.git"
+    },
+    "dependencies": {
+        "camelcase": "^4.0.0",
+        "meow": "^3.7.0"
+    }
 }

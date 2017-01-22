@@ -1,6 +1,6 @@
 {
     "name": "fastng",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "快速生成angular组件文件",
     "bin": {
         "fastng": "./dist/index.js"

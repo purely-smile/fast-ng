@@ -72,7 +72,9 @@ export default function createFiles(flags) {
       templateUrl: './${filename}.html',
       styleUrls: ['./${filename}.scss']
 })
-export class ${cameName}Component;`,
+export class ${cameName}Component{
+
+}`,
       ng2Index: `export * from './${filename}-component'`
     }
   }

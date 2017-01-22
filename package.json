@@ -1,6 +1,6 @@
 {
     "name": "fastng",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "description": "快速生成angular组件文件",
     "bin": {
         "fastng": "./dist/index.js"
@@ -9,7 +9,7 @@
         "node": ">=0.10"
     },
     "scripts": {
-        "preinstall": "tsc"
+        "prepublish": "tsc"
     },
     "author": "",
     "license": "MIT",

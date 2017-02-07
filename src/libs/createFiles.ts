@@ -66,14 +66,16 @@ export default function createFiles(flags) {
     controller: (<any>require)('./${filename}.controller').default,
     controllerAs: '${cameName}'
   })`,
-      ng2Component: `import { Component, Input } from '@angular/core';
+      ng2Component: `import { Component, Input,OnInit } from '@angular/core';
 @Component({
       selector: '${filename}',
       templateUrl: './${filename}.html',
       styleUrls: ['./${filename}.scss']
 })
-export class ${cameName}Component{
+export class ${cameName}Component implements OnInit{
+  ngOnInit(){
 
+  }
 }`,
       ng2Index: `export * from './${filename}-component'`
     }
